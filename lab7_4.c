@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define heads 0
 #define tails 1 
 
 int coin_toss(){
+    
     int x = rand()%2;
     return x;
 }
 
 int main(){
-
+    srand(time(NULL));
     int numb, i;
+    
     printf("Give number of times: \n");
     scanf("%d", &numb);
     do {

@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 #define heads 0
 #define tails 1 
 
 int coin_toss(){
-    
     int x = rand()%2;
     return x;
 }
@@ -27,7 +27,7 @@ int main(){
     for(i=0; i<numb; i++){
         if(coin_toss()==heads){
             NumbOfHeads = NumbOfHeads + 1;
-        } else {
+        }else {
             NumbOfTails = NumbOfTails + 1;
         } 
     }

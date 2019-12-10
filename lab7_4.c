@@ -34,4 +34,5 @@ int main(){
     printf("Heads: %d", NumbOfHeads);
     printf("Tails: %d", NumbOfTails);
     return 0;
+    
 }
